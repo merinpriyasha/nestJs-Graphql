@@ -1,3 +1,3 @@
 # nestJs-Graphql
-NestJs and GraphQL course
 
+NestJs and GraphQL course
