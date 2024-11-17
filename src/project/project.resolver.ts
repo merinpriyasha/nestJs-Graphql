@@ -29,7 +29,7 @@ export class ProjectResolver {
   }
 
   @Mutation(() => Project)
-  removeProject(@Args('id', { type: () => Int }) id: number) {
+  removeProject(@Args('id') id: string) {
     return this.projectService.remove(id);
   }
 }
